@@ -39,6 +39,7 @@ public class NavigationController {
 	@GetMapping(value = "/webclient")
 	public ModelAndView webclient(ModelAndView model) {
 		model.setViewName("console/webclient/index");
+		System.out.println("1");
 		return model;
 	}
 	 
